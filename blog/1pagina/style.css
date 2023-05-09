@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white
+}
+.mainContainer {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.mainContainer p,h2 {
+    color: blue
+}
+
+.mainContainer h1,h3 {
+    color: blue
+}
+
+.mainContainer h1 {
+    margin: 0;
+}
+.mainContainer h2 {
+    margin-top: 0;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer img {
+    width: 12rem;
+    border-radius: 50%;
+    border: blue 0.3rem;
+}
+
+header {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    
+    left: 0;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .lk{
+    width: 12rem;
+    border-radius: 100%;
+   
+}
+
+.ct{
+    width: 12rem;
+    border-radius: 100%;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.form label {
+    color: aliceblue;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+nav li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav {
+    background-color:black;
+     color: white;
+     padding: 70px;
+     left: 0;
+     width: 100%;
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
